@@ -12,7 +12,7 @@ h1{
 .name-highlight{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 140px;
 }
@@ -34,4 +34,26 @@ font-weight: 700;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:  right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.experience-items{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    margin-left: 2%;
+    padding-bottom: 30px;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    margin-right: 2%;
+}
+footer{
+    text-align: center;
 }
